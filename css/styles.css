@@ -114,7 +114,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--header-text-color);
 }
 .header-link:hover,
@@ -141,6 +141,9 @@ body {
 }
 .icon-smartphone {
   fill: currentColor;
+}
+.header-address-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-address-link:hover,
 .header-address-link:focus {
@@ -352,9 +355,15 @@ body {
 .command-social-item + .command-social-item {
   margin-left: 10px;
 }
+.command-socia-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .command-socia-link:hover,
 .command-socia-link:focus {
   background-color: var(--accent-color);
+}
+.command-socia-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .command-socia-link:hover .command-socia-icon,
 .command-socia-link:focus .command-socia-icon {
@@ -380,9 +389,15 @@ body {
 .clients-item + .clients-item {
   margin-left: 30px;
 }
+.icon-company {
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .icon-company:hover,
 .icon-company:focus {
   border: 1px solid var(--accent-color);
+}
+.icon-company {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-item:hover .icon-company,
 .clients-item:focus .icon-company {
@@ -438,6 +453,9 @@ body {
 
   color: var(--footer-address-color);
 }
+.contacts-item-addres {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .contacts-item-addres:focus,
 .contacts-item-addres:hover {
   color: var(--accent-color);
@@ -492,6 +510,9 @@ body {
   color: #ffffff;
   padding-bottom: 20px;
 }
+.social-list-firm-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .social-list-firm-link:hover,
 .social-list-firm-link:focus {
   background-color: var(--accent-color);
@@ -522,6 +543,11 @@ body {
   border-style: none;
 
   color: var(--portfolio-button);
+}
+.main-button-titel {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-button-titel:focus,
 .main-button-titel:hover {
@@ -585,6 +611,9 @@ body {
 .filtr-product {
   text-decoration: none;
   display: block;
+}
+.price-list-titel {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .price-list-titel:focus,
 .price-list-titel:hover {
